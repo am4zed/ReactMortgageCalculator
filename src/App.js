@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import CalculatorBox from './containers/CalculatorBox';
 
 function App() {
   return (
-    <h2>Mortgage Calculator</h2>
+    <CalculatorBox />
   );
 }
 
